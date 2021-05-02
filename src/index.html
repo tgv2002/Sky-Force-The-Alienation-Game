@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sky Force - The Alientation</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Oleo+Script|Faster+One);
+        body {
+            background: black;
+            overflow: hidden;
+        }
+        #hud {
+            font-family:"Faster One";
+            font-size:xx-large;
+            color:gold;
+            margin:0px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="hud"></div>
+    <div id="container"></div>
+    <script defer src="../libraries/three.js/build/three.min.js"></script>
+    <script defer src="../libraries/three.js/examples/js/controls/OrbitControls.js"></script>
+    <script defer src="../libraries/three.js/examples/js/loaders/OBJLoader.js"></script>
+    <script defer src="../libraries/three.js/examples/js/loaders/MTLLoader.js"></script>
+    <script defer src="../libraries/three.js/src/audio/Audio.js"></script>
+    <script defer src="../libraries/three.js/src/audio/AudioListener.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
